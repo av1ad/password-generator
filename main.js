@@ -13,20 +13,6 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M",
 
 let passwordOne = document.getElementById("password-one")
 let passwordTwo = document.getElementById("password-two")
-let span = document.querySelector("span")
-
-span.onclick = function() {
-    document.execCommand("copy")
-}
-
-span.addEventListener("copy", function(event){
-    event.preventDefault()
-    if (event.clipboardData) {
-        event.clipboardData.setData("text/plain", span.textContent)
-        console.log(event.clipboardData.getData(generateOnePassword))
-    }
-}) 
-
 
 function generatePassword() {
     passwordOne.textContent = generateOnePassword()
