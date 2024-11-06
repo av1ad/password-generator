@@ -1,3 +1,3 @@
 # password-generator
 
-https://jewelsonmyjeans.github.io/password-generator/
+https://av1ad.github.io/password-generator/
